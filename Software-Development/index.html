@@ -7,7 +7,6 @@
     <meta name="keywords" content = "Ayuda, conductor, discapacidad, aplicación">
     <meta name="author" content="Bus Inclusivo" />
     <meta name="copyright" content="Bus Inclusivo 2022" />
-    <!-- agregar los otrso meta datos -->
     <title>Bus Inclusivo</title>
     <link rel="icon" href="./img/logoSinFondo.ico">
     <!-- Referencia a los otros archivos CSS o JV scrip -->
@@ -16,6 +15,7 @@
 </head>
 <body>
     <header class="header">
+        <div class="image_back" style="background-image: url(img/imgPrincipal.png)" role="img" aria-label="una mujer ayudando a una persona discapacitada"></div>
         <div class="navbar">
             <img src="./img/logoSinFondo.png" alt="logo bus inclusivo" height="153px" width="130px">
             <nav> 
@@ -42,32 +42,41 @@
             <a id="info_button" href="">Más información</a>
         </div>
     </header>
-    <div>
-        <h2>¿Cómo funciona? </h2>
-        <div>
-            <!-- agregar imagen  -->
-            <h4> Persona con vehículo </h4>
-            <p>
-                Cuando sales puedes recoger a las personas que tienen tu misma ruta. 
-                No es necesario que te desvíes de tu destino             
-            </p>
-            <p> Descarga y prueva </p>
+    <section id="explication">
+        <h2 class="title">¿Cómo funciona? </h2>
+        <div class="grid-wrapper">    
+            <article class="card zone">
+                <img class="img_card" src="img/cover.png" alt="Un automovil estacionado">
+                <div class="text">
+                    <h4> Persona con vehículo </h4>
+                    <p>
+                        Cuando sales puedes recoger a las personas que tienen tu misma ruta. 
+                        No es necesario que te desvíes de tu destino             
+                    </p>
+                    <button>Descarga y prueva</button>
+                </div>
+            </article>
+            <article class="card zone">
+                <img class="img_card" src="img/media.png" alt="Una silla de ruesdas con muletas">
+                <div class="text">
+                    <h4> Si eres un usuario  </h4>
+                    <p>
+                             Si vas a salir puedes seleccionar tu destino y podrás encontrar vehículos 
+                            particulares que tengan tu misma ruta. 
+                            También, puedes encontrar vehículos públicos y demás.            
+                    </p>
+                    <button>Descarga y prueva </button>
+                </div>
+            </article>
         </div>
-        <div>
-               <!-- agregar imagen  -->
-               <h4> Si eres un usuario  </h4>
-               <p>
-                    Si vas a salir puedes seleccionar tu destino y podrás encontrar vehículos 
-                    particulares que tengan tu misma ruta. 
-                    También, puedes encontrar vehículos públicos y demás.            
-               </p>
-               <p> Descarga y prueva </p>
+   </section>
+   <section id="brands">
+        <h2 class="title">Instituciones que nos respaldan </h2>
+        <div class="grid-wrapper">
+            <img class="img_brand" src="img/conadislogo.png" alt="Logo del Conadis">
+            <img class="img_brand" src="img/midislogo.png" alt="Logo del MIDIS">
         </div>
-   </div>
-   <div>
-        <h2>Instituciones que nos respaldan </h2>
-        <!-- agregar imagen  -->
-   </div>
+   </section>
    <div>
         <h2>¿Vas a salir en tu carro? </h2>
         <div>

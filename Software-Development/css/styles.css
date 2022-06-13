@@ -10,18 +10,21 @@ body{
     font-family: 'Roboto', sans-serif;
     
 }
-
-.header{
-    background-image: url("/img/imgPrincipal.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: #646464;
-    background-blend-mode: soft-light;
-    height: 550px;
+header{
+    margin-bottom: 11em;
 }
-
+.image_back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.75;
+    max-width: 100%;
+    max-height: 100%;
+}
 .navbar{
     display: flex;
     justify-content: center;
@@ -82,7 +85,8 @@ body{
 .hero{
     color: #fff;
     font-weight: bold;
-    
+    padding:2%;
+    position: relative;
 }
 
 .hero_info{
@@ -108,4 +112,50 @@ body{
 .hero_buttons img{
     width: 200px;
     height: 80px;
+}
+
+.title{
+    position: relative;
+    margin: 0, auto;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /*grid-gap: 10em;*/
+    column-gap: 25%;
+    row-gap: auto;
+    border: 1px red solid;
+}
+.card {
+    background-color: cyan;
+    margin: 50px;
+}
+.card > img {
+    max-width: 100%;
+    height: auto;
+}
+.card h4 {
+    font-size: 1.5rem;
+}
+.card p {
+    font-size: 1rem;
+}
+.card > .text {
+    padding: 0 20px 20px;
+}
+button {
+    cursor: pointer;
+    background: blue;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+/* Estilos de las siguientes secciones*/
+.img_brand{
+    margin:auto;
 }

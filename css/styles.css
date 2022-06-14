@@ -113,3 +113,244 @@ body{
     width: 200px;
     height: 80px;
 }
+
+/* Cómo funciona */
+
+.funciones{
+    padding-bottom: 30px;
+    background: #f2f2f2;
+}
+
+.funcion-cont{
+    display: flex;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+    margin: 0 150px;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.cta{
+    width: 180px;
+    height: 50px;
+    background: #23A6F0;
+    border-radius: 5px;
+    margin-top: 1em;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+/* Instituciones */
+
+.respaldan h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.instituciones{
+    margin: 2em 0;
+}
+
+.instituciones .conadis{
+    margin-left: 22em;
+}
+
+.instituciones .midis{
+    margin-left: 10em;
+}
+
+
+/* ¿Vas a salir en tu carro? */
+
+.pasos{
+    background: #f2f2f2;
+}
+
+.servicio-cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv-ind{
+    width: 28%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.serv-ind img{
+    width: 60%;
+}
+
+.serv-ind h3{
+    margin: 10px 0;
+}
+
+.titulo-pasos{
+    color: #6B6B6B;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* ¿Tienes problemas para movilizarte? */
+
+.movilizarte{
+    width: 28%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.movilizarte img{
+    width: 40%;
+}
+
+.movilizarte h3{
+    margin: 10px 0;
+}
+
+.modificar{
+    height: 240px;
+}
+
+/* Deja que las personas te lo cuenten */
+
+.clientes{
+    background: #f2f2f2;
+    padding: 20px 0;
+}
+
+.titulo-clientes{
+    color: #6B6B6B;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.clientes h3{
+    color: #6B6B6B;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+
+.cards .card{
+    background: #4d0686;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    display:block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+
+/* Sobre bus inclusivo */
+
+.about-us{
+    background: #f2f2f2;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    width: 90%;
+    max-width: 1100px;
+    height: 100%;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.textos-hero{
+    grid-column: 1/7;
+    padding-right: 20px;
+}
+
+.textos-hero p{
+    text-align: justify;
+}
+
+.img-hero{
+    width: 100%;
+    height: auto;
+    grid-column: 7/13;
+}
+
+/* Descarga ahora*/
+
+footer{
+    background: #394B5D;
+    height: 260px;
+}
+
+[class^="footer-item"]{
+    grid-column: span 3;
+}
+
+.subtitulo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+footer p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* footer */

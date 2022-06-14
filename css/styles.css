@@ -116,7 +116,7 @@ body{
     height: 600px;
 }
 
-.howitworks h2, .respaldo h2, .pasos-vehiculo h2, .pasos-usuario h2{
+.howitworks h2, .respaldo h2, .pasos-vehiculo h2, .pasos-usuario h2, .testimonios h2{
     text-align: center;
     padding: 1em 0 0.5em 0;
     text-transform: uppercase;
@@ -214,4 +214,93 @@ body{
 .pasos-usuario{
     width: 100%;
     height: 590px;
+}
+
+.testimonios{
+    width: 100%;
+    height: 510px;
+    background: #EFF8FF;
+}
+
+.testimonios h3{
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.testimonios-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us{
+    width: 100%;
+    height: 450px;
+    background: #EFF8FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.left p{
+    text-align: left;
+    padding: 2em;
+    font-size: 24px;
+}
+
+.download-now{
+    padding: 0 5em;
+    width: 100%;
+    height: 150px;
+    background: #394B5D;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download-now img{
+    width: 200px;
+    height: 80px;
+}
+
+.download-now div h2{
+    text-align: left;
+    font-size: 36px;  
+}
+
+.download-now div p{
+    text-align: left;
+    font-size: 14px;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 2em;
+    width: 100%;
+    height: 50px;
+}
+
+.share-logos{
+    line-height: 30px;
+    display: flex;
+    margin-left: 10em;
+}
+.share-logos p{
+    margin-right: 10px;
+}
+.share-logos img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
 }

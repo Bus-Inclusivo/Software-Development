@@ -120,6 +120,7 @@ header{
     color: black;
     font-weight: bold;
     text-align: center;
+    font-size: 2em;
 }
 .grid-wrapper {
     display: grid;
@@ -127,15 +128,17 @@ header{
     /*grid-gap: 10em;*/
     column-gap: 25%;
     row-gap: auto;
-    border: 1px red solid;
 }
 .card {
     background-color: cyan;
     margin: 50px;
+    border: 1px red solid;
 }
 .card > img {
     max-width: 100%;
     height: auto;
+    align-items: center;
+    margin: 1em 3em ;
 }
 .card h4 {
     font-size: 1.5rem;
@@ -145,6 +148,10 @@ header{
 }
 .card > .text {
     padding: 0 20px 20px;
+    align-items: center;
+    text-align: center;
+    word-break:break-all;
+    margin: 0 0 1em 1em;
 }
 button {
     cursor: pointer;
@@ -156,6 +163,42 @@ button {
     width: 100%;
 }
 /* Estilos de las siguientes secciones*/
-.img_brand{
+#explication {
+    margin: 0;
+    background-color: #EFF8FF;
+}
+
+.img_brand {
     margin:auto;
+}
+.grid-wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /*grid-gap: 10em;*/
+    column-gap: auto;
+    row-gap: auto;
+}
+
+.about {
+    position: relative;
+    border: 1px blueviolet solid;
+    height: 30em;
+
+}
+.container{
+    height: auto;
+    width: 45%;
+    border: 1px green solid;
+
+}
+.left{
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 10%;    
+}
+.right{
+    position: absolute;
+    float: right;
+    width: 20em;
+    margin: 5%;
 }

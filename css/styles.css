@@ -163,3 +163,31 @@ body{
     border-radius: 10px;
     box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.65);
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.img_brand {
+    margin: auto;
+    margin-bottom: 3em;
+}
+
+.tutorial{
+    background-color: #EFF8FF;
+    height: auto;
+}
+.step {
+    margin: 1em 4em;
+    text-align: center;
+    width: 20em;
+}
+.img_card{
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 1em 15% ;
+}

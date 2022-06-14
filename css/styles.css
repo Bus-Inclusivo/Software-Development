@@ -12,7 +12,7 @@ body{
 }
 
 .header{
-    background-image: url("/img/imgPrincipal.png");
+    background-image: url("https://australiannatural.com/wp-content/uploads/2018/11/josh-appel-423804-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,10 +116,9 @@ body{
     height: 600px;
 }
 
-.howitworks h2{
-    display: flex;
-    justify-content: center;
-    padding: 1em;
+.howitworks h2, .respaldo h2, .pasos-vehiculo h2, .pasos-usuario h2{
+    text-align: center;
+    padding: 1em 0 0.5em 0;
     text-transform: uppercase;
     font-size: 2em;
 }
@@ -127,6 +126,8 @@ body{
 .cards{
     display: flex;
     justify-content: space-around;
+    margin: 0 7em;
+    padding: 20px;
 }
 
 .card{
@@ -164,30 +165,53 @@ body{
     box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.65);
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    text-transform: uppercase;
-    font-size: 2em;
-}
-.img_brand {
-    margin: auto;
-    margin-bottom: 3em;
+.respaldo{
+    width: 100%;
+    height: 250px;
+    background: #fff;
 }
 
-.tutorial{
-    background-color: #EFF8FF;
-    height: auto;
+.instituciones{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 7em;
+    padding: 20px;
 }
-.step {
-    margin: 1em 4em;
+
+.pasos-vehiculo{
+    width: 100%;
+    height: 560px;
+    background: #EFF8FF;
+}
+.pasocards{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+}
+
+.card-paso{
+    width: 250px;
+    height: 450px;
+}
+
+.card-paso img{
+    width: 100%;
+    height: 250px;
+}
+
+.card-paso h3{
     text-align: center;
-    width: 20em;
+    padding: 0.5em;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
 }
-.img_card{
-    max-width: 100%;
-    height: auto;
-    align-items: center;
-    padding: 1em 15% ;
+
+.card-paso p{
+    text-align: center;
+}
+
+.pasos-usuario{
+    width: 100%;
+    height: 590px;
 }

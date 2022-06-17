@@ -7,10 +7,8 @@
     <meta name="keywords" content = "Ayuda, conductor, discapacidad, aplicación">
     <meta name="author" content="Bus Inclusivo" />
     <meta name="copyright" content="Bus Inclusivo 2022" />
-    <!-- agregar los otrso meta datos -->
     <title>Bus Inclusivo</title>
     <link rel="icon" href="./img/logoSinFondo.ico">
-    <!-- Referencia a los otros archivos CSS o JV scrip -->
     <link rel="stylesheet" href="./css/styles.css" >
 
 </head>
@@ -43,8 +41,9 @@
             <a id="info_button" href="">Más información</a>
         </div>
     </header>
+
     <section class="howitworks" id="howitworks">
-        <h2>¿Cómo funciona? </h2>
+        <h2 class="title">¿Cómo funciona? </h2>
         <div class="cards">
             <div class="card">
                 <img src="./img/vehiculo.png" alt="vehiculo">
@@ -67,73 +66,69 @@
             </div>
         </div>
    </section>
-   <section class="respaldo">
-        <h2>Instituciones que nos respaldan </h2>
-        <div class="instituciones">
-            <img src="./img/conadis.png" alt="conadis">
-            <img src="./img/midis.png" alt="midis">
-        </div>
-   </section>
-   <section class="pasos-vehiculo" id="pasos-vehiculo">
-        <h2>¿Vas a salir en tu carro? </h2>
-        <div class="pasocards">
-            <div class="card-paso">
-                <img src="./img/paso1-vehiculo.png" alt="paso 1">
-                <h3>Entra a la app y selecciona tu destino</h3>
-                <p> Puedes modificar tu ruta si es distinta</p>
-            </div>
-            <div class="card-paso">
-                <img src="./img/paso2-vehiculo.png" alt="paso 2">
-                <h3> Conduce libremente </h3>
-                <p> Recibirás un mensaje si una persona necesita que la recojas </p>
-            </div>
-            <div class="card-paso">
-                <img src="./img/paso3-vehiculo.png" alt="paso 3">
-                <h3>Lleva a la persona a su destino sin desviarte de tu ruta </h3>
-                <p> Las personas con problemas de movilidad estarán agradecidos con tu ayuda </p>
-            </div>
-        </div>
-   </section>
-   <section class="pasos-usuario" id="pasos-usuario">
-        <h2> ¿Tienes problemas para movilizarte?</h2>
-        <div class="pasocards">
-            <div class="card-paso">
-                <img src="./img/paso1-vehiculo.png" alt="paso 1 usuario">
-                <h3>Entra a la app y selecciona tu destino</h3>
-                <p> Puedes modificar tu ruta si es distinta</p>
-            </div>
-            <div class="card-paso">
-                <img src="./img/paso2-usuario.png" alt="paso 2 usuario">
-                <h3>Encuentra vehículos que están cerca y disponibles </h3>
-                <p> Encontraras a personas con vehiculos privado o transporte publico con la indumentaria necesaria</p>
-            </div>
-            <div class="card-paso">
-                <img src="./img/paso3-usuario.png" alt="paso 3 usuario">
-                <h3>Califica el servicio</h3>
-                <p> Puedes otorgarle puntos al conductor o la empresa </p>
-            </div>
-        </div>
-   </section>
-   <section class="testimonios" id="testimonios">
-        <h2>Deja que las personas te lo cuenten</h2>
-        <h3>Los hombres son ricos sólo en medida de lo que dan. <br>El que da un gran servicio recibe una gran recompensa</h3>
-        <div class="testimonios-img">
-            <img src="./img/testimonio1.png" alt="testimonio1">
-            <img src="./img/testimonio2.png" alt="testimonio2">
+   
+   <section id="brands">
+        <h2 class="title">Instituciones que nos respaldan </h2>
+        <div class="grid-wrapper">
+            <img class="img_brand" src="img/conadislogo.png" alt="Logo del Conadis">
+            <img class="img_brand" src="img/midislogo.png" alt="Logo del MIDIS">
         </div>
     </section>
-    <section class="about-us" id="about-us">
-       <div class="left">
-        <h2>Sobre bus inclusivo</h2>
-        <p>
-            Bus Inclusivo es un proyecto universitario que busca la manera 
-            de poder brindar una solución para poder transportar a las personas discapacitadas, 
-            que por su discapacidad les resulta complicado porder transportarse de un lado a otro y 
-            también queremos incluirlos en la sociedad para que no los dejen de lado.
-        </p>
-       </div>
-        <img src="./img/logoSinFondo.png" alt="logo BusInclusivo">
+    
+    <section class="tutorial">
+        <h2 class="title">¿Vas a salir en tu carro? </h2>
+        <div class="grid-wrapper3">
+            <article class="step">
+                <img class="img_card" src="img/celular.png" alt="celular abriendo la aplicacion de apps">
+                <div class="text">
+                    <h3>Entra a la app y selecciona tu destino</h3>
+                    <p> Puedes modificar tu ruta si es distinta</p>
+                </div>
+            </article>
+            <article class="step">
+               <img class="img_card" src="img/timon.png" alt="interior de un cochee con perspecitiva de conductor">
+               <div class="text">
+                    <h3> Conduce libremente </h3>
+                    <p> Recibirás un mensaje si una persona necesita que la recojas </p>
+               </div>
+            </article>
+            <article class="step">
+                <img class="img_card" src="img/festeja.png" alt="persona festejando ">
+                <div class="text">
+                    <h3>Lleva a la persona a su destino sin desviarte de tu ruta </h3>
+                    <p> Las personas con problemas de movilidad estarán agradecidos con tu ayuda </p>
+                </div>
+            </article>
+        </div>
     </section>
+
+    <section class="tutorial">
+        <h2 class="title"> ¿Tienes problemas para movilizarte?</h2>
+        <div class="grid-wrapper3">
+            <article class="step">
+                <img class="img_card" src="img/celular.png" alt="celular abriendo la aplicacion de apps">
+                <div class="text">
+                    <h3>Entra a la app y selecciona tu destino</h3>
+                    <p> Puedes modificar tu ruta si es distinta</p>
+                 </div>
+            </article>
+            <article class="step">
+                <img class="img_card" src="img/conductor.png" alt="conductor sonriendo">
+                <div class="text">
+                    <h3>Encuentra vehículos privados o públicos que están cerca o disponibles</h3>
+                    <p> Las personas con problemas de movilidad estarán agradecidos con tu ayuda</p>
+                </div>
+            </article>
+            <article class="step">
+                <img class="img_card" src="img/calificacion.png" alt="celular abriendo para calificar">
+                <div class="text">
+                    <h3>Califica el servicio</h3>
+                    <p> Puedes otorgarle puntos al conductor o la empresa </p>
+                </div>
+            </article>
+            </div>
+   </section>
+
     <section class="download-now" id="download-now">
         <div>
             <h2>Descarga ahora </h2>

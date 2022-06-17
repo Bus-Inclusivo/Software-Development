@@ -22,6 +22,7 @@ body{
     height: 550px;
 }
 
+/* estilos de la barra de navegacion */
 .navbar{
     display: flex;
     justify-content: center;
@@ -79,6 +80,8 @@ body{
     font-weight: 400;
 }
 
+/* Estilos de la pantalla principal */
+
 .hero{
     color: #fff;
     font-weight: bold;
@@ -109,18 +112,23 @@ body{
     width: 200px;
     height: 80px;
 }
+/*Estilos generales para todas las secciones */
+
+.title{
+    position: relative;
+    margin: 0, auto;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Estilos de la seccion howitworks */
 
 .howitworks{
     background: #EFF8FF;
     width: 100%;
     height: 600px;
-}
-
-.howitworks h2, .respaldo h2, .pasos-vehiculo h2, .pasos-usuario h2, .testimonios h2{
-    text-align: center;
-    padding: 1em 0 0.5em 0;
-    text-transform: uppercase;
-    font-size: 2em;
 }
 
 .cards{
@@ -164,99 +172,55 @@ body{
     border-radius: 10px;
     box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.65);
 }
+/*Estilos de la seccion marcas*/
 
-.respaldo{
-    width: 100%;
-    height: 250px;
-    background: #fff;
-}
-
-.instituciones{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 7em;
-    padding: 20px;
-}
-
-.pasos-vehiculo{
-    width: 100%;
-    height: 560px;
-    background: #EFF8FF;
-}
-.pasocards{
-    display: flex;
-    justify-content: space-around;
-    padding: 1em 0;
-}
-
-.card-paso{
-    width: 250px;
-    height: 450px;
-}
-
-.card-paso img{
-    width: 100%;
-    height: 250px;
-    box-shadow: 2px 4px 10px -1px rgba(0,0,0,0.65);
-}
-
-.card-paso h3{
-    text-align: center;
-    padding: 0.5em;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: 500;
-}
-
-.card-paso p{
-    text-align: center;
-}
-
-.pasos-usuario{
-    width: 100%;
-    height: 590px;
-}
-
-.testimonios{
-    width: 100%;
-    height: 510px;
-    background: #EFF8FF;
-}
-
-.testimonios h3{
-    text-align: center;
-    padding: 1em 0 0.5em 0;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-style: italic;
-}
-
-.testimonios-img{
-    display: flex;
-    justify-content: space-around;
-}
-
-.about-us{
-    width: 100%;
-    height: 450px;
-    background: #EFF8FF;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.left h2{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 36px;
-}
-
-.left p{
-    text-align: left;
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /*grid-gap: 10em;*/
+    column-gap: 25%;
+    row-gap: auto;
     padding: 2em;
-    font-size: 24px;
 }
 
+.img_brand{
+    margin: auto;
+    margin-left: 2em;
+}
+
+/*Estilos de la seccion de steps*/
+.tutorial{
+    background: #EFF8FF;
+    width: 100%;
+}
+.grid-wrapper3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    /*grid-gap: 10em;*/
+    column-gap: auto;
+    row-gap: auto;
+}
+.step {
+    margin: 3em;
+    text-align: center;
+}
+.img_card {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text h3{
+    color: #6B6B6B;
+    font-style: italic;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+.text p{
+    color: #000000;
+}
+
+/*Estilos de la seccion descargas */
 .download-now{
     padding: 0 5em;
     width: 100%;
@@ -283,6 +247,7 @@ body{
     font-size: 14px;
 }
 
+/*Estilos del footer*/
 footer{
     display: flex;
     justify-content: left;
